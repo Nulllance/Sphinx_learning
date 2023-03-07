@@ -44,4 +44,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
           force: true
-          publish_dir: ./docs/build/html
+          publish_dir: ./docs/
