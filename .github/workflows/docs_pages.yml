@@ -31,7 +31,12 @@ jobs:
       - name: Init new repo in dist folder and commit generated files
         run: |
           cd docs/build/html/
-          torch .nojekyll
+          git init
+          touch .nojekyll
+          git add .
+          git config --local user.email "gggreenlance@gmail.com"
+          git config --local user.name "lanceWu"
+          git commit -m "deloy"
 
       - name: Force push to destination branch
         uses: ad-m/github-push-action@master
