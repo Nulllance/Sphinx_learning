@@ -6,6 +6,10 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+import pathlib
+import sys
+sys.path.insert(0, pathlib.Path(__file__).parents[2].resolve().as_posix())
+
 project = 'Learning Notes'
 copyright = '2023, lance'
 author = 'lance'
@@ -14,7 +18,10 @@ release = '0.1'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['sphinx.ext.duration']
+extensions = [
+    'sphinx.ext.duration',
+    'sphinx.ext.doctest',
+    ]
 
 templates_path = ['_templates']
 exclude_patterns = []
