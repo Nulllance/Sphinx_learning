@@ -1,11 +1,10 @@
-name: docs_pages_workflow
+name: pages
 
 on:
   push:
     branches: [main]
 
 jobs:
-  docs_pages_workflow:
   pages:
     runs-on: ubuntu-latest
     steps:
