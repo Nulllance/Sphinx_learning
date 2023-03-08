@@ -3,7 +3,7 @@ name = ""
 version = ""
 description = ""
 authors = [
-    {name = "ZHANG, Meng", email = "stall-breezes.0t@icloud.com"},
+    {name = "Lance, Wu", email = "gggreenlance@gmail.com"},
 ]
 dependencies = [
     "sphinxcontrib-bibtex>=2.5.0",
