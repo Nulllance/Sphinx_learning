@@ -22,7 +22,6 @@ dev = [
     "ablog>=0.10.23",
     "pydata-sphinx-theme>=0.8.1",
     "sphinx-disqus>=1.2.0",
-    "furo",
 ]
 [tool.pdm]
 [tool.pdm.dev-dependencies]
