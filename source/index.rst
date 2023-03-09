@@ -12,6 +12,7 @@ Contents
    html
    css
    javascript
+   markdown
    :maxdepth: 2
    :caption: Contents:
 

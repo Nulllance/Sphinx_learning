@@ -23,6 +23,7 @@ dev = [
     "pydata-sphinx-theme>=0.8.1",
     "sphinx-disqus>=1.2.0",
     "furo",
+    "myst-parser"
 ]
 [tool.pdm]
 [tool.pdm.dev-dependencies]
