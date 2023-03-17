@@ -9,14 +9,10 @@ Lance Wu's Learning notes
 Contents
 --------
 .. toctree::
-   html
-   css
-   javascript
-   markdown
+   html/html
+   css/css
+   javascript/javascript
+
    :maxdepth: 2
    :caption: Contents:
 
-
-
-Check out the :doc:`usage` section for further information, including how to
-:ref:`install <installation>` the project.
