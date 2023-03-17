@@ -15,4 +15,7 @@ Contents
 
    :maxdepth: 2
    :caption: Contents:
+   html/html
+   css/css
+   javascript/javascript
 
