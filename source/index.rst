@@ -9,13 +9,13 @@ Lance Wu's Learning notes
 Contents
 --------
 .. toctree::
-   html/html
-   css/css
-   javascript/javascript
+   html/index
+   css/index
+   javascript/index
 
    :maxdepth: 2
    :caption: Contents:
-   html/html
-   css/css
-   javascript/javascript
+   html/index
+   css/index
+   javascript/index
 
