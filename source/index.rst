@@ -12,10 +12,7 @@ Contents
    html/index
    css/index
    javascript/index
-
    :maxdepth: 2
+
    :caption: Contents:
-   html/index
-   css/index
-   javascript/index
 
